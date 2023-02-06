@@ -1,7 +1,12 @@
 #!/bin/bash
 
+# pull-all-my-repos.sh
+#
 # v0.01 by martinm@rsysadmin.com
-# 
+#
+# Little script which finds all your .git directories, enters them and runs 'git pull'
+# It might throw errors related to git itself; e.g.: when you try to pull an uncommitted branch
+#
 
 # Path to your local Git stuff
 repos_base=~/Git
