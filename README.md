@@ -2,7 +2,7 @@
 Bash script to automatically pull all your Git repositories
 
 ## usage
-Before you can use this script, please set the variable `repos_base` and make it point to the directory where all your Git repositories is located.
+Before you can use this script, please set the variable `repos_base` and make it point to the directory where all your Git repositories are located.
 
 Once you've done that, simply execute the script.
 
