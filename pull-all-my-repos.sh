@@ -40,7 +40,7 @@ my_repos=$(find . -maxdepth 2 -type d -name .git)
 for i in $my_repos
 do
   repo_name=${i::-5}
-  echo -e "=== Synchronizing repo: $repo_name : \c"
+  echo -e "--> Synchronizing repo: $repo_name : \c"
   if [ -d $i ]
   then
     cd $i/..
